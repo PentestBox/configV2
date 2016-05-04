@@ -40,6 +40,12 @@ ngrep="%pentestbox_ROOT%\bin\Sniffing\ngrep\ngrep.exe" $*
 networkminer="%pentestbox_ROOT%\bin\Sniffing\NetworkMiner\NetworkMiner.exe" $* -new_console
 
 msfconsole=cd /d "%pentestbox_ROOT%\bin\metasploit-framework\" $T ruby "%pentestbox_ROOT%\bin\metasploit-framework\msfconsole" $*
+msfbinscan=cd /d "%pentestbox_ROOT%\bin\metasploit-framework\" $T ruby "%pentestbox_ROOT%\bin\metasploit-framework\msfbinscan" $*
+msfmachscan=cd /d "%pentestbox_ROOT%\bin\metasploit-framework\" $T ruby "%pentestbox_ROOT%\bin\metasploit-framework\msfmachscan" $*
+msfpescan=cd /d "%pentestbox_ROOT%\bin\metasploit-framework\" $T ruby "%pentestbox_ROOT%\bin\metasploit-framework\msfpescan" $*
+msfelfscan=cd /d "%pentestbox_ROOT%\bin\metasploit-framework\" $T ruby "%pentestbox_ROOT%\bin\metasploit-framework\msfelfscan" $*
+msfvenom=cd /d "%pentestbox_ROOT%\bin\metasploit-framework\" $T ruby "%pentestbox_ROOT%\bin\metasploit-framework\msfvenom" $*
+msfd=cd /d "%pentestbox_ROOT%\bin\metasploit-framework\" $T ruby "%pentestbox_ROOT%\bin\metasploit-framework\msfd" $*
 
 jad="%pentestbox_ROOT%\bin\ReverseEngineering\jad\jad.exe" $*
 javasnoop=start javaw -jar "%pentestbox_ROOT%\bin\ReverseEngineering\JavaSnoop\JavaSnoop.jar" $1 -new_console
