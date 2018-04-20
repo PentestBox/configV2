@@ -75,9 +75,9 @@ urlcrazy=ruby "%pentestbox_ROOT%\bin\InformationGathering\urlcrazy\urlcrazy" $*
 
 findmyhash=python "%pentestbox_ROOT%\bin\password_attacks\findmyhash\findmyhash.py" $*
 hashidentifier=python "%pentestbox_ROOT%\bin\password_attacks\hashidentifier\Hash_ID.py" $*
-hashcat-cli32="%pentestbox_ROOT%\bin\password_attacks\hashcat\hashcat-cli32.exe" $*
-hashcat-cli64="%pentestbox_ROOT%\bin\password_attacks\hashcat\hashcat-cli64.exe" $*
-hashcat-cliXOP="%pentestbox_ROOT%\bin\password_attacks\hashcat\hashcat-cliXOP.exe" $*
+hashcat-cli32="%pentestbox_ROOT%\bin\password_attacks\hashcat\hashcat32.exe" $*
+hashcat-cli64="%pentestbox_ROOT%\bin\password_attacks\hashcat\hashcat64.exe" $*
+hashcat-cliXOP="%pentestbox_ROOT%\bin\password_attacks\hashcat\hashcatXOP.exe" $*
 johntheripper="%pentestbox_ROOT%\bin\password_attacks\johntheripper\run\john.exe" $*
 unshadow="%pentestbox_ROOT%\bin\password_attacks\johntheripper\run\unshadow.exe" $*
 lazagne="%pentestbox_ROOT%\bin\password_attacks\laZagne\laZagne.exe" $*
