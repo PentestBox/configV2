@@ -14,12 +14,13 @@ burpsuite=start javaw -jar "%pentestbox_ROOT%\bin\burpsuite\burpsuite.jar" -new_
 ettercap="%pentestbox_ROOT%\bin\Sniffing\ettercap\ettercap.exe" $*
 beefproject=cd /d "%pentestbox_ROOT%\bin\beef" $T ruby "%pentestbox_ROOT%\bin\beef\beef" $*
 
+bettercap="%pentestbox_ROOT%\bin\bettercap\bettercap.exe" $*
 
 androbugs="%pentestbox_ROOT%\bin\androidsecurity\AndroBugs_Framework\androbugs.exe" $*
 apktool=java -jar "%pentestbox_ROOT%\bin\androidsecurity\apktool\apktool.jar" $*
 androwarn=cd /d "%pentestbox_ROOT%\bin\androidsecurity\androwarn" $T python "%pentestbox_ROOT%\bin\androidsecurity\androwarn\androwarn.py" $*
 atom="%pentestbox_ROOT%\bin\Atom\atom.exe" $1 -new_console:s60H
-bytecodeviewer=java -jar "%pentestbox_ROOT%\bin\androidsecurity\bytecode-viewer\BytecodeViewer-2.9.8-fatjar.jar" $* -new_console
+bytecodeviewer=java -jar "%pentestbox_ROOT%\bin\androidsecurity\bytecode-viewer\Bytecode-Viewer-2.9.8-fatjar.jar" $* -new_console
 pidcat=python "%pentestbox_ROOT%\bin\androidsecurity\pidcat\pidcat.py" $*
 jadx="%pentestbox_ROOT%\bin\androidsecurity\jadx\bin\jadx.bat" $*
 jadx-gui="%pentestbox_ROOT%\bin\androidsecurity\jadx\bin\jadx-gui.bat" $*
@@ -102,6 +103,7 @@ zap=cd /d "%pentestbox_ROOT%\bin\WebApplications\ZAP_2.4.3\" $T java -Xmx512m -j
 sqlmap=python "%pentestbox_ROOT%\bin\WebApplications\sqlmap\sqlmap.py" $*
 vbscan="%pentestbox_ROOT%\bin\WebApplications\vbscan\vbscan.bat" $*
 yasuo=ruby "%pentestbox_ROOT%\bin\WebApplications\yasuo\yasuo.rb" $*
+dirsearch=python3 "%pentestbox_ROOT%\bin\WebApplications\dirsearch\dirsearch.py" $*
 
 crackmapexec="%pentestbox_ROOT%\bin\ExploitationTools\CrackMapExecWin\crackmapexec.exe" $*
 
